@@ -1,0 +1,33 @@
+<ion-content class="ion-padding">
+  <ion-button color="success" routerLink="/public/register">
+    <ion-icon name="arrow-back"></ion-icon>
+  </ion-button>
+  <div class="form-container">
+    <ion-icon class="icon-register" name="person"></ion-icon>
+
+    <form>
+      <ion-input
+        label="Nombre de usuario o email"
+        label-placement="floating"
+        fill="outline"
+        class="input-spacing"
+      ></ion-input>
+
+      <ion-input
+        label="Contraseña"
+        label-placement="floating"
+        fill="outline"
+        class="input-spacing"
+      ></ion-input>
+
+      <ion-button
+        routerLink="/private"
+        expand="block"
+        shape="round"
+        color="success"
+        type="submit"
+        >Entrar</ion-button
+      >
+    </form>
+  </div>
+</ion-content>
