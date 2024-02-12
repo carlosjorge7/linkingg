@@ -1,0 +1,7 @@
+{
+  "name": "fisioapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
