@@ -5,26 +5,13 @@
   <div class="form-container">
     <ion-icon class="icon-register" name="person-add"></ion-icon>
 
-    <form>
-      <ion-input
-        label="Nombre"
-        label-placement="floating"
-        fill="outline"
-        class="input-spacing"
-      ></ion-input>
-
-      <ion-input
-        label="Apellido"
-        label-placement="floating"
-        fill="outline"
-        class="input-spacing"
-      ></ion-input>
-
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
       <ion-input
         label="Nombre de usuario o nickname"
         label-placement="floating"
         fill="outline"
         class="input-spacing"
+        formControlName="username"
       ></ion-input>
 
       <ion-input
@@ -32,6 +19,7 @@
         label-placement="floating"
         fill="outline"
         class="input-spacing"
+        formControlName="email"
       ></ion-input>
 
       <ion-input
@@ -39,9 +27,15 @@
         label-placement="floating"
         fill="outline"
         class="input-spacing"
+        formControlName="password"
       ></ion-input>
 
-      <ion-button expand="block" shape="round" color="primary" type="submit"
+      <ion-button
+        [disabled]="form.invalid"
+        expand="block"
+        shape="round"
+        color="primary"
+        type="submit"
         >Darme de alta</ion-button
       >
     </form>

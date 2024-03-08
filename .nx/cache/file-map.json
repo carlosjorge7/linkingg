@@ -82,11 +82,11 @@
       },
       {
         "file": "capacitor.config.ts",
-        "hash": "13697596643853554161"
+        "hash": "1172629607248263661"
       },
       {
         "file": "ionic.config.json",
-        "hash": "15755049689170852826"
+        "hash": "6741508361413631330"
       },
       {
         "file": "karma.conf.js",
@@ -94,11 +94,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "13215720624346888642"
+        "hash": "1612229828362186922"
       },
       {
         "file": "package.json",
-        "hash": "12509549986274143551"
+        "hash": "3462911319191900201"
       },
       {
         "file": "src/app/app-routing.module.ts",
@@ -122,7 +122,7 @@
       },
       {
         "file": "src/app/app.module.ts",
-        "hash": "5073765293049625490"
+        "hash": "18298580752100589913"
       },
       {
         "file": "src/app/private/chat/chat-routing.module.ts",
@@ -182,7 +182,7 @@
       },
       {
         "file": "src/app/private/private.page.html",
-        "hash": "6798948914374659225"
+        "hash": "15123010044716178927"
       },
       {
         "file": "src/app/private/private.page.scss",
@@ -237,16 +237,20 @@
         "hash": "10434291595347665669"
       },
       {
+        "file": "src/app/public/models/user.ts",
+        "hash": "6593297121716560943"
+      },
+      {
         "file": "src/app/public/public-routing.module.ts",
         "hash": "8715706487403190945"
       },
       {
         "file": "src/app/public/public.module.ts",
-        "hash": "12210764072307384321"
+        "hash": "4900247102283729768"
       },
       {
         "file": "src/app/public/public.page.html",
-        "hash": "16076076584187597014"
+        "hash": "5353592585036542812"
       },
       {
         "file": "src/app/public/public.page.scss",
@@ -262,7 +266,7 @@
       },
       {
         "file": "src/app/public/register/register.component.html",
-        "hash": "13767071997873905024"
+        "hash": "3028523740945178532"
       },
       {
         "file": "src/app/public/register/register.component.scss",
@@ -274,7 +278,7 @@
       },
       {
         "file": "src/app/public/register/register.component.ts",
-        "hash": "5451959839682307766"
+        "hash": "8271847228134455735"
       },
       {
         "file": "src/assets/icon/favicon.png",
@@ -290,7 +294,7 @@
       },
       {
         "file": "src/environments/environment.ts",
-        "hash": "17458466784506237106"
+        "hash": "345285127131578224"
       },
       {
         "file": "src/global.scss",
@@ -298,7 +302,7 @@
       },
       {
         "file": "src/index.html",
-        "hash": "5962093970713772175"
+        "hash": "13908870089213265194"
       },
       {
         "file": "src/main.ts",
@@ -309,12 +313,32 @@
         "hash": "16163444994210036896"
       },
       {
+        "file": "src/shared/models/token.ts",
+        "hash": "1339471590986121304"
+      },
+      {
+        "file": "src/shared/services/auth.service.spec.ts",
+        "hash": "10697900076114607965"
+      },
+      {
+        "file": "src/shared/services/auth.service.ts",
+        "hash": "8496701392473435154"
+      },
+      {
+        "file": "src/shared/services/message.service.spec.ts",
+        "hash": "12584865580224303314"
+      },
+      {
+        "file": "src/shared/services/message.service.ts",
+        "hash": "5902801608939225068"
+      },
+      {
         "file": "src/test.ts",
         "hash": "12412031923219697029"
       },
       {
         "file": "src/theme/variables.scss",
-        "hash": "14575012137629437513"
+        "hash": "18150515636267344028"
       },
       {
         "file": "src/zone-flags.ts",

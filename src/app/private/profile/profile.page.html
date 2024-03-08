@@ -1,4 +1,29 @@
 <ion-content [fullscreen]="true">
   <br /><br /><br />
-  <h1>persil</h1>
+
+  <ion-item>
+    <ion-label><strong>Usuario</strong>: {{ profile.username }} </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label> <strong>Email</strong>: {{ profile.email }} </ion-label>
+  </ion-item>
+
+  <ion-button
+    fill="outline"
+    expand="block"
+    shape="round"
+    color="danger"
+    (click)="loggout()"
+  >
+    Cerrar sesión
+  </ion-button>
+
+  <ion-button
+    (click)="deleteAccount()"
+    expand="block"
+    shape="round"
+    color="danger"
+  >
+    Borrar cuenta
+  </ion-button>
 </ion-content>

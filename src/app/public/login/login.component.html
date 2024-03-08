@@ -5,12 +5,13 @@
   <div class="form-container">
     <ion-icon class="icon-register" name="person"></ion-icon>
 
-    <form>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
       <ion-input
         label="Nombre de usuario o email"
         label-placement="floating"
         fill="outline"
         class="input-spacing"
+        formControlName="username"
       ></ion-input>
 
       <ion-input
@@ -18,9 +19,11 @@
         label-placement="floating"
         fill="outline"
         class="input-spacing"
+        formControlName="password"
       ></ion-input>
 
       <ion-button
+        [disabled]="form.invalid"
         routerLink="/private"
         expand="block"
         shape="round"
